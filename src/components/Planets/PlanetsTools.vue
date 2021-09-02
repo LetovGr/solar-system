@@ -1,7 +1,7 @@
 <template>
   <div class="planets-tools">
     <Tabs :options="tabs" :init-tab="0" @tabChange="({deleted})=>SET_PARAMS({deleted})" />
-    <div>filters</div>
+    <div class="planets-tools__filters-ph"></div>
   </div>
 </template>
 

@@ -5,7 +5,7 @@
       <h2>Solar System</h2>
     </div>
     <div class="planets-header__actions">
-      <CustomInput placeholder="Search" @input="v=> $emit('setSearch', v)" />
+      <CustomInput placeholder="Поиск" @input="v=> $emit('setSearch', v)" />
       <CustomButton @click="$emit('showModal')" text="Создать" />
     </div>
   </div>
